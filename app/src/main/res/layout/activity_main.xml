@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.fiap.demolayout.MainActivity"
+    android:gravity="center_vertical|center_horizontal"
+    android:weightSum="6"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_titulo_menu_principal"
+        />
+
+        <Button
+            android:id="@+id/btCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btCadastrar"
+            android:onClick="cadastrar"
+            />
+
+        <Button
+            android:id="@+id/btVerGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btVerGaleria"
+            android:onClick="verGaleria"/>
+
+        <Button
+            android:id="@+id/btVerLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btVerLista"
+            android:onClick="verLista"/>
+
+        <Button
+            android:id="@+id/btSair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btSair" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

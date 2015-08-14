@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.fiap.demolayout" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".GaleriaTimesActivity"
+            android:label="@string/title_activity_galeria_times" >
+        </activity>
+        <activity
+            android:name=".DetalheImageActivity"
+            android:label="@string/title_activity_detalhe_image" >
+        </activity>
+        <activity
+            android:name=".CadastrarClubeActivity"
+            android:label="@string/title_activity_cadastrar_clube" >
+        </activity>
+        <activity
+            android:name=".ListarClubesActivity"
+            android:label="@string/title_activity_listar_clubes" >
+        </activity>
+    </application>
+
+</manifest>

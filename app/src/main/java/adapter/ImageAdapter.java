@@ -17,20 +17,23 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
 
     private Integer[] mImagens = {
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians, R.drawable.corinthians,
-            R.drawable.corinthians
+            R.drawable.corinthians2,
+            R.drawable.atl_mineiro,
+            R.drawable.botafogo,
+            R.drawable.coritiba,
+            R.drawable.cruzeiro,
+            R.drawable.fluminense,
+            R.drawable.flamengo,
+            R.drawable.goias,
+            R.drawable.gremio,
+            R.drawable.guarani,
+            R.drawable.internacional,
+            R.drawable.juventude,
+            R.drawable.palmeiras,
+            R.drawable.paysandu,
+            R.drawable.ponte_preta,
+            R.drawable.sao_caetano,
+            R.drawable.vitoria
     };
 
     public ImageAdapter(Context context){
@@ -67,25 +70,5 @@ public class ImageAdapter extends BaseAdapter {
 
     }
 
-/*
-    @Override
-    public int getCount() {
-        return 0;
-    }
 
-    @Override
-    public Object getItem(int position) {
-        return null;
-    }
-
-    @Override
-    public long getItemId(int position) {
-        return 0;
-    }
-
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
-    }
-    */
 }

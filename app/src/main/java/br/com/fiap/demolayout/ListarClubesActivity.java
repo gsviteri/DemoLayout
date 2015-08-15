@@ -23,15 +23,16 @@ public class ListarClubesActivity extends AppCompatActivity {
     List<Clube> myList = new ArrayList<Clube>();
 
     String[] clubes = new String[]{
-            "Corinthians", "Corinthians", "Corinthians","Corinthians","Corinthians","Corinthians",
-            "Corinthians","Corinthians","Corinthians","Corinthians","Corinthians","Corinthians",
-            "Corinthians","Corinthians","Corinthians",
+            "Corinthians", "Atletico-MG", "Botafogo","Coritiba","Cruzeiro","Fluminense",
+            "Flamengo","Goias","Gremio","Guarani","Internacional","Juventude",
+            "Guarani da Capital","Paysandu","Ponte Preta","Sao Caetano","Vitoria"
     };
 
     int[] imgs = new int[]{
-            R.drawable.corinthians, R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,
-            R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,
-            R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,R.drawable.corinthians,
+            R.drawable.corinthians2, R.drawable.atl_mineiro,R.drawable.botafogo,R.drawable.coritiba,R.drawable.cruzeiro,
+            R.drawable.fluminense,R.drawable.flamengo,R.drawable.goias,R.drawable.gremio,R.drawable.guarani,
+            R.drawable.internacional,R.drawable.juventude,R.drawable.palmeiras,R.drawable.paysandu,R.drawable.ponte_preta,R.drawable.sao_caetano,
+            R.drawable.vitoria
     };
 
     @Override
@@ -48,10 +49,10 @@ public class ListarClubesActivity extends AppCompatActivity {
     }
 
     private void getDataInList() {
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < clubes.length; i++) {
             Clube clube = new Clube();
-            clube.setClube("Corinthians");
-            clube.setImgResId(R.drawable.corinthians2);
+            clube.setClube(clubes[i]);
+            clube.setImgResId(imgs[i]);
 
             // Add this object into the ArrayList myList
             myList.add(clube);
